@@ -8,10 +8,12 @@ allprojects {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
 
-    version 'v0.24.2'
+    version 'LOCAL_SNAPSHOT'
+    //version 'v0.24.3'
     group 'com.github.TeamNewPipe'
 
     repositories {
+        mavenLocal()
         mavenCentral()
         maven { url "https://jitpack.io" }
     }
